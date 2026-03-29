@@ -8,7 +8,7 @@ This project demonstrates a complete **DevOps workflow** for a full-stack web ap
 ## 🏗️ Architecture
 
 The application follows a containerized multi-tier architecture:
-
+```
 Client
   ↓
 Nginx (Reverse Proxy)
@@ -16,7 +16,7 @@ Nginx (Reverse Proxy)
 Frontend Service (UI)
   ↓
 Backend Service (API)
-
+```
 - **Client** interacts with the application via browser.
 - **Nginx** acts as a reverse proxy, routing requests to appropriate services.  
 - **Frontend** serves the user interface and communicates with backend APIs.  
@@ -143,8 +143,7 @@ This pipeline ensures:
 
 - Deploy the application on cloud platforms such as AWS or GCP.
 - Implement container orchestration using Kubernetes for scalability.
-- Integrate a database (e.g., MongoDB or MySQL) for persistent storage.  
-- Set up automated triggers using GitHub webhooks for real-time CI/CD.  
+- Integrate a database (e.g., MongoDB or MySQL) for persistent storage.    
 - Add monitoring and logging tools (e.g., Prometheus, Grafana).  
 
 ---
@@ -152,4 +151,5 @@ This pipeline ensures:
 ## 👩‍💻 Author
 
 **Rohini Javvaji**
+
 DevOps Enthusiast
